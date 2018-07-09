@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "medmonitor-mobile",
+    "description": "Application used to keep track of patient health and parkinson symptoms.",
+    "slug": "medmonitor-mobile",
+    "privacy": "unlisted",
+    "sdkVersion": "28.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.medmon.medmon",
+      "infoPlist" : {
+        "NSCalendarsUsageDescription" : 
+        "Allow Expo experiences to access your calendar" ,
+        "NSCameraUsageDescription" : 
+        "Allow Expo experiences to use your camera" ,
+        "NSContactsUsageDescription" : 
+        "Allow Expo experiences to access your contacts" ,
+        "NSLocationWhenInUseUsageDescription" : 
+        "Allow Expo experiences to use your location" ,
+        "NSMicrophoneUsageDescription" : 
+        "Allow Expo experiences to access your microphone" ,
+        "NSMotionUsageDescription" : 
+        "Allow Expo experiences to access your device's accelerometer" ,
+        "NSPhotoLibraryAddUsageDescription" : 
+        "Give Expo experiences permission to save photos" ,
+        "NSPhotoLibraryUsageDescription" : 
+        "Give Expo experiences permission to access your photos" ,
+        "NSRemindersUsageDescription" : 
+        "Allow Expo experiences to access your reminders" 
+      }
+    },
+    "android": {
+      "package": "com.medmon.medmon"
+    }
+  }
+}
